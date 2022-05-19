@@ -35,6 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PMWithExcel.py" />
+    <Compile Include="Source\excelComClient.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
